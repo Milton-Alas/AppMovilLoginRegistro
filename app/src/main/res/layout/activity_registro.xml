@@ -38,12 +38,12 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/txtnomapellidos"
+                android:id="@+id/txtuser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="Ingrese su nombre y apellido"
+                android:hint="Ingrese nombre de usuario"
                 android:inputType="text"
                 android:padding="12dp" />
 
@@ -58,22 +58,22 @@
                 android:padding="12dp" />
 
             <EditText
-                android:id="@+id/txtusuario"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/edit_text_background"
-                android:hint="@string/usuario"
-                android:inputType="text"
-                android:padding="12dp" />
-
-            <EditText
                 android:id="@+id/txtcontrasenia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/edit_text_background"
-                android:hint="Contrasenia"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/txtcontraseniaConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="Confirme contraseña"
                 android:inputType="textPassword"
                 android:padding="12dp" />
 
@@ -84,10 +84,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="30dp"
-                android:text="REGISTRAR"
+                android:text="Guardar"
                 android:textSize="18sp"
                 app:cornerRadius="20dp" />
 
+            <Button
+                android:id="@+id/btnregresar"
+                style="@style/BotonPrimario"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Regresar"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
 
         </LinearLayout>
 
