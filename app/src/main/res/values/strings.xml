@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login App</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="ingrese_usuario">Ingrese su nombre de usuario</string>
+    <string name="ingrese_password">Ingrese su contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="salir">Salir</string>
+    <string name="registrar">Registrar</string>
+    <string name="app_logo">Logo de la aplicación</string>
+    <string name="person">Person</string>
+</resources>
