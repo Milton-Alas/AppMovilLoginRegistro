@@ -24,9 +24,9 @@ public class RegistroActivity extends AppCompatActivity {
     // Patrón para validar contraseña alfanumérica (letras y números)
     private static final Pattern PASSWORD_PATTERN =
             Pattern.compile("^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{5,}$");
-                    /**
-                    * Guarda los datos del usuario en SharedPreferences
-                    */
+    /**
+     * Guarda los datos del usuario en SharedPreferences
+     */
     private void guardarDatosUsuario() {
         String nombreUsuario = txtuser.getText().toString().trim();
         String email = txtEmail.getText().toString().trim();
